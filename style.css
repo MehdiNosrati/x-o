@@ -19,8 +19,9 @@ table{
 	position: relative;
 	font-size: 4.5em;
 	text-align: center;
-	margin: 10px;
+	margin: 5px;
 	border-radius: 10px;
+	user-select: none;
 }
 .white{
 	background-color: snow;
@@ -29,6 +30,7 @@ h1{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	user-select: none;
 }
 .reset{
 	cursor: pointer;
@@ -44,21 +46,24 @@ h1{
 	color: aliceblue;
 	box-shadow: 1px 1px 5px grey;
 	transition: all .2s;
+	user-select: none;
 }
 .reset:active{
 	box-shadow: none;
 }
+
 .game{
 	font-family: monospace;
 	font-size: 2em;
 	position: relative;
-	margin: 20px;
+	margin: 10px;
 	background-color: darkgrey;
 	margin: 10px 40px;
 	border-radius: 10px;
 	padding: 10px;
 	color: aliceblue;
 	text-align: center;
+	user-select: none;
 	
 }
 .score-board{
@@ -66,7 +71,8 @@ h1{
 	text-align: center;
 	font-size: 1.7em;
 	background-color: aquamarine;
-	margin: 30px;
+	margin: 10px;
 	border-radius: 5px;
 	padding: 20px;
+	user-select: none;
 }
