@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.css">
+</head>
+<body class="animated fadeIn">
+	<div class="play-ground">
+		<table onclick="test()">
+			<tr>
+					<td>
+						<div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="1"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="2"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="3"></div></td>
+			</tr>		
+			<tr>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="4"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="5"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="6"></div></td>
+			</tr>
+			<tr>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="7"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="8"></div></td>
+					<td><div class="el white" onclick="var x=this.innerHTML; if(x=='') this.innerHTML= move()" id="9"></div></td>
+			</tr>
+		</table>
+		
+		<div class="game" id="gc">the O begins...</div>
+		<div class="score-board" id="sb"> [X] 0 - 0 [O]</div>
+		<h2 onclick="res()" class="reset">reset</h2>
+	
+	</div>
+	
+	
+	
+	
+	
+	<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
